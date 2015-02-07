@@ -1,0 +1,6 @@
+com/nuevebit/persistence/repository/JPASearchableRepository.class
+com/nuevebit/persistence/repository/UUIDCrudRepository.class
+com/nuevebit/persistence/repository/AbstractJPARepository.class
+com/nuevebit/persistence/UUIDIdentificable.class
+com/nuevebit/persistence/Identificable.class
+com/nuevebit/persistence/repository/SearchableRepository.class

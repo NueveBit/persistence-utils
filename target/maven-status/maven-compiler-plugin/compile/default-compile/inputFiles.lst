@@ -1,0 +1,6 @@
+/home/emerino/Programación/nuevebit utils new/persistence-utils/src/main/java/com/nuevebit/persistence/Identificable.java
+/home/emerino/Programación/nuevebit utils new/persistence-utils/src/main/java/com/nuevebit/persistence/repository/UUIDCrudRepository.java
+/home/emerino/Programación/nuevebit utils new/persistence-utils/src/main/java/com/nuevebit/persistence/repository/SearchableRepository.java
+/home/emerino/Programación/nuevebit utils new/persistence-utils/src/main/java/com/nuevebit/persistence/repository/JPASearchableRepository.java
+/home/emerino/Programación/nuevebit utils new/persistence-utils/src/main/java/com/nuevebit/persistence/repository/AbstractJPARepository.java
+/home/emerino/Programación/nuevebit utils new/persistence-utils/src/main/java/com/nuevebit/persistence/UUIDIdentificable.java
