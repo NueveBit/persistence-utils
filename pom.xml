@@ -34,4 +34,24 @@
         </dependency>
     </dependencies>
     <name>Nuevebit Persistence Utils</name>
+    <build>
+        <plugins>
+
+            <plugin>
+                <groupId>external.atlassian.jgitflow</groupId>
+                <artifactId>jgitflow-maven-plugin</artifactId>
+                <version>1.0-m4.3</version>
+                <configuration>
+                    <!-- see goals wiki page for configuration options -->
+                    <flowInitContext>
+                        <masterBranchName>master</masterBranchName>
+                        <developBranchName>dev</developBranchName>
+                    </flowInitContext>
+                    <allowUntracked>true</allowUntracked>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <noDeploy>true</noDeploy>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

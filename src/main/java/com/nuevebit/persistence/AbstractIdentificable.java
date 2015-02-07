@@ -5,10 +5,15 @@
  */
 package com.nuevebit.persistence;
 
+import java.io.Serializable;
+
 /**
  *
  * @author emerino
  */
-public class AbstractIdentificable {
-    
+public abstract class AbstractIdentificable<T extends Serializable>
+        implements Identificable<T> {
+
+    @
+    private long version;
 }
