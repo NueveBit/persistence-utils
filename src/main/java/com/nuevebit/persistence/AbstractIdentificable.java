@@ -29,7 +29,7 @@ public abstract class AbstractIdentificable<T extends Serializable>
         return id;
     }
 
-    protected final void setId(T id) {
+    public void setId(T id) {
         this.id = id;
     }
 }
