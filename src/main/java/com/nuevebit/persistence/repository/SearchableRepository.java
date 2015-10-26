@@ -18,7 +18,35 @@ import org.springframework.data.domain.Pageable;
  */
 public interface SearchableRepository<T, S> {
     
+    /**
+     * Devuelve sólo un resultado que coincida exactamente con los criterios de
+     * búsqueda especificados.
+     * @param searchCriteria
+     * @return 
+     */
+    T searchOne(S searchCriteria);
+    
+    /**
+     * Devuelve todos los resultados que coincidan con los criterios de búsqueda
+     * especificados.
+     * @param searchCriteria
+     * @return 
+     */
+    List<T> search(S searchCriteria);
+    
+    /**
+     * Devuelve los resultados paginados de los resultados que coincidan con
+     * los criterios de búsqueda definidos.
+     * @param searchCriteria
+     * @param pageable
+     * @return 
+     */
     List<T> search(S searchCriteria, Pageable pageable);
 
+    /**
+     * Cuenta los resultados que coincidan con los criterios de búsqueda.
+     * @param searchCriteria
+     * @return 
+     */
     long count(S searchCriteria);
 }
